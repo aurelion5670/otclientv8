@@ -170,6 +170,10 @@ context.onTurn = function(callback)
   return context.callback("onTurn", callback)
 end
 
+-- onWalk -- callback = function(creature, oldPos, newPos)
+context.onWalk = function(callback)
+  return context.callback("onWalk", callback)
+end
 
 -- CUSTOM CALLBACKS
 
